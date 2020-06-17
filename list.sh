@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 pwd=`pwd`
-boost=boost_1_70_0
+boost=boost_1_71_0
 bcp=./dist/bin/bcp
 path=$pwd/boost
 all_libraries="all_libraries.txt"

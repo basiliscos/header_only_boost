@@ -27,37 +27,37 @@ Produces *header_only_libraries.txt* and *all_libraries.txt* (with dependencies)
 <p>
 
 ```
-accumulators 23M
-align 872K
+accumulators 24M
+align 856K
 any 1.7M
 array 688K
 assert 616K
-assign 9.1M
+assign 9.2M
 bind 928K
 callable_traits 368K
 circular_buffer 2.8M
 compatibility 132K
 concept_check 2.3M
-config 720K
+config 716K
 container_hash 1.5M
 conversion 24K
 convert 36M
-core 752K
+core 772K
 crc 892K
 detail 11M
 disjoint_sets 44K
-dynamic_bitset 9.6M
+dynamic_bitset 9.8M
 endian 1.8M
 foreach 8.1M
 format 4.2M
 function 8.9M
-functional 16M
 function_types 10M
+functional 16M
 fusion 32M
 hana 20M
 headers 16K
-heap 9.9M
-histogram 12M
+heap 17M
+histogram 11M
 hof 504K
 integer 792K
 intrusive 3.3M
@@ -71,7 +71,7 @@ metaparse 12M
 move 1.2M
 mp11 208K
 mpl 11M
-msm 30M
+msm 33M
 multi_array 8.9M
 multi_index 12M
 optional 3.5M
@@ -90,22 +90,23 @@ ratio 7.8M
 rational 1.6M
 safe_numerics 1.3M
 scope_exit 9.1M
-signals2 12M
+signals2 19M
 smart_ptr 2.7M
 sort 4.5M
 static_assert 632K
 throw_exception 644K
 tokenizer 8.0M
 tti 11M
-tuple 940K
+tuple 944K
 type_index 3.3M
+type_traits 2.1M
 typeof 7.2M
-type_traits 2.0M
 units 17M
 unordered 4.3M
 utility 3.5M
 uuid 12M
 variant 9.8M
+variant2 852K
 vmd 2.9M
 winapi 1.3M
 xpressive 26M
@@ -123,7 +124,7 @@ Run bcp to get final distributive.
 ```
 
 ## Result
-For those who are lazy here is the resulting bcp command line for the latest version (1.70):
+For those who are lazy here is the resulting bcp command line for the latest version (1.71):
 
 ```
 bcp \
